@@ -8,9 +8,7 @@ function mincost(arr)
 		{ 
 			arr.sort((a,b)=>
 				{
-					if(a>b)
-						return b-a;
-					else return a - b;
+					return a -b;
 				});
 			let sum = arr[0]+arr[1];
 			res +=sum;
